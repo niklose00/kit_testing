@@ -1,0 +1,69 @@
+{
+    "inputAI": {
+        "activation_attribute": "data-ai-enhanced",
+        "tools": {
+            "improve_writing": {
+                "category": "Auswahl bearbeiten",
+                "label": "Schreibstil verbessern",
+                "icon": "fa-chart-simple",
+                "prompt": "Schreibe folgenden Text in einem viel besseren Stil: {input}"
+            },
+            "write_shorter": {
+                "category": "Auswahl bearbeiten",
+                "label": "Kürzer schreiben",
+                "icon": "fa-solid fa-arrow-down-wide-short",
+                "prompt": "Tue so als wärst du ein Experte für das Verfassen von Texten. Schreibe folgenden Text kürzer und prägnanter: {input}"
+            },
+            "example": {
+                "category": "Hilfe",
+                "label": "Beispiel einzeigen",
+                "icon": "fa-question",
+                "prompt": "[erklaerung]. Hier sind einige Beispiele für die Eingabe: [exampleText]. Generiere nun ein Beispiel für die Eingabe.",
+                "resources": [
+                    "exampleText",
+                    "erklaerung"
+                ]
+            },
+            "correct_input": {
+                "category": "Hilfe",
+                "label": "Eingabe korrigieren",
+                "icon": "fa-check",
+                "prompt": "[erklaerung]. Korrigiere meine Eingabe anhand: {input}. Gebe die richtig Antwort zurück",
+                "resources": [
+                    "exampleText",
+                    "erklaerung"
+                ]
+            },
+            "explain_mistake": {
+                "category": "Hilfe",
+                "label": "Fehler erklären",
+                "icon": "fa-pen",
+                "prompt": "[erklaerung]. Erkläre meinen Fehler: {input}.",
+                "resources": [
+                    "exampleText",
+                    "erklaerung"
+                ]
+            },
+            "company_email_style": {
+                "category": "Kommunikation",
+                "label": "Unternehmensstil anwenden",
+                "icon": "fa-regular fa-comment",
+                "prompt": "Schreibe den folgenden Text um, sodass er den Stil eines formellen und professionellen Unternehmensberichts widerspiegelt. Verwende präzise und sachliche Fachterminologie. Strukturiere den Text in kurzen, prägnanten Absätzen. Die Zielgruppe ist [zielgruppe]. Originaltext: {input}",
+                "resources": [
+                    "zielgruppe"
+                ]
+            }
+        },
+        "visuals": {
+            "aiEnhancedIcon": {
+                "display": true,
+                "icon": "fa-solid fa-wand-magic-sparkles"
+            }
+        }
+    },
+    "sectionAI": {
+        "activation_attribute": "section-stt",
+        "section_identifier": "form-section",
+        "input_types" : ["audio","text"] 
+    }
+}

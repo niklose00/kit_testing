@@ -14,6 +14,7 @@
         "ext-intl": "*",
         "ext-mbstring": "*",
         "laminas/laminas-escaper": "^2.13",
+        "niklose00/kit": "dev-main",
         "psr/log": "^3.0"
     },
     "require-dev": {
