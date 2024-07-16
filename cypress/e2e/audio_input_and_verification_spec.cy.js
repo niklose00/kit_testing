@@ -3,7 +3,7 @@
 describe("Multiple Form Filling Tests", () => {
   beforeEach(() => {
     // Besuchen Sie die angegebene URL vor jedem Test
-    cy.visit("http://localhost/testing/public/");
+    cy.visit("http://localhost/kit_testing/public/");
   });
 
   const testCases = [

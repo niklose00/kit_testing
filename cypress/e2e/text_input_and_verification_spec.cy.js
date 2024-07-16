@@ -2,7 +2,7 @@
 
 describe("Genauigkeit Texteingabe", () => {
     beforeEach(() => {
-      cy.visit("http://localhost/testing/public/");
+      cy.visit("http://localhost/kit_testing/public/");
     });
   
     const testCases = [
